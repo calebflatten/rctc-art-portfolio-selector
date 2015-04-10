@@ -31,24 +31,80 @@
 </head>
 
 <body>
-
     <!-- Begin page content -->
     <div class="container">
         <div class="page-header">
             <h1>Select a Portfolio</h1>
         </div>
+        <!--Break-->
         <div class="list-group">
-            <a href="http://www.calebflatten.com" class="list-group-item"><img src="http://lorempixel.com/140/140/" alt="..." class="img-thumbnail"> Caleb Flatten</a>
-            <a href="http://www.heavenlister.com" class="list-group-item"><img src="http://lorempixel.com/140/140/" alt="..." class="img-thumbnail"> Heaven Lister</a>
-            <a href="..." class="list-group-item"><img src="http://lorempixel.com/140/140/" alt="..." class="img-thumbnail"> Kayla Nord</a>
-            <a href="..." class="list-group-item"><img src="http://lorempixel.com/140/140/" alt="..." class="img-thumbnail"> Erin Murtaugh</a>
-            <a href="..." class="list-group-item"><img src="http://lorempixel.com/140/140/" alt="..." class="img-thumbnail"> Meaghan Kazak</a>
+            <a class="list-group-item" data-toggle="collapse" href="#collapse0" aria-expanded="false" aria-controls="collapseExample">
+Caleb Flatten
+</a>
+            <div class="collapse" id="collapse0">
+                <div class="well">
+                    <a href="http://www.calebflatten.com/" class="btn btn-primary btn-lg btn-block">Visit Portfolio</a>
+                    <img src="win8.1_firefox_30.0.jpeg" class="img-responsive imgpad">
+                </div>
+            </div>
+            <a class="list-group-item" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+Heaven Lister
+</a>
+            <div class="collapse" id="collapse1">
+                <div class="well">
+                    <a href="http://www.heavenlister.com" class="btn btn-primary btn-lg btn-block">Visit Portfolio</a>
+                </div>
+            </div>
+            <a class="list-group-item" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+Kayla Nord
+</a>
+            <div class="collapse" id="collapse2">
+                <div class="well">
+                    <a href="..." class="btn btn-primary btn-lg btn-block">Visit Portfolio</a>
+                </div>
+            </div>
+            <a class="list-group-item" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+Erin Murtaugh
+</a>
+            <div class="collapse" id="collapse3">
+                <div class="well">
+                    <a href="..." class="btn btn-primary btn-lg btn-block">Visit Portfolio</a>
+                </div>
+            </div>
+            <a class="list-group-item" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapseExample">
+Meaghan Kazak
+</a>
+            <div class="collapse" id="collapse4">
+                <div class="well">
+                    <a href="..." class="btn btn-primary btn-lg btn-block">Visit Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Site Credits</h4>
+                    </div>
+                    <div class="modal-body">
+                        Site designed by Caleb Flatten with the assistance of Daniel Vedamuthu.
+                        <img class="img-responsive imgpad" width="100%" src="http://i.giphy.com/xPCu91Sgfj5LO.gif">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">I hate being a footer. 😒</p>
+            <p class="text-muted" data-toggle="modal" data-target="#myModal" >I hate being a footer. 😒</p>
         </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

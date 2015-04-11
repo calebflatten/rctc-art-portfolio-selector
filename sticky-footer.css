@@ -10,6 +10,7 @@ body {
   margin-bottom: 60px;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #ededed;
+    padding-top: 10%;
 }
 .footer {
   position: absolute;

@@ -1,16 +1,19 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+@font-face { font-family: 'FranklinGothic'; src: url('/css/ITCFranklinGothicStd-Demi.eot?#iefix') format('embedded-opentype'), url('/css/ITCFranklinGothicStd-Demi.otf') format('opentype'), url('/css/ITCFranklinGothicStd-Demi.woff') format('woff'), url('/css/ITCFranklinGothicStd-Demi.ttf') format('truetype'), url('/css/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothicStd-Demi') format('svg'); font-weight: normal; font-style: normal; }
+
 html {
   position: relative;
   min-height: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'FranklinGothic', sans-serif;
 }
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'FranklinGothic', sans-serif;
     background-color: #ededed;
     padding-top: 10%;
+    text-transform: uppercase;
 }
 .footer {
   position: absolute;
@@ -26,6 +29,8 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+h1{ padding-left: 17.5px;
+}
 .container {
   width: auto;
   max-width: 680px;
@@ -37,6 +42,8 @@ body {
 
 
 .list-group-item { font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 0px;
 }
 
 .imgpad { padding-top: 20px;

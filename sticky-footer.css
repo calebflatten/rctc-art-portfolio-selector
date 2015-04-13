@@ -1,6 +1,6 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-@font-face { font-family: 'FranklinGothic'; src: url('/css/ITCFranklinGothicStd-Demi.eot?#iefix') format('embedded-opentype'), url('/css/ITCFranklinGothicStd-Demi.otf') format('opentype'), url('/css/ITCFranklinGothicStd-Demi.woff') format('woff'), url('/css/ITCFranklinGothicStd-Demi.ttf') format('truetype'), url('/css/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothicStd-Demi') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FranklinGothic'; src: url('css/ITCFranklinGothicStd-Demi.eot?#iefix') format('embedded-opentype'), url('css/ITCFranklinGothicStd-Demi.otf') format('opentype'), url('css/ITCFranklinGothicStd-Demi.woff') format('woff'), url('css/ITCFranklinGothicStd-Demi.ttf') format('truetype'), url('css/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothicStd-Demi') format('svg'); font-weight: normal; font-style: normal; }
 
 html {
   position: relative;
